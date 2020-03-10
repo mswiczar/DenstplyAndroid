@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/top" />
+
+    <TextView
+        android:id="@+id/textViewLabel1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="16dip"
+        android:text="Please, insert the PIN received by Dentsply"
+        android:gravity ="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000" />
+
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#4545A2" />
+
+    <EditText
+        android:id="@+id/editTextPIN"
+        android:layout_width="148dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/Textoooo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#4545A2" />
+
+    <Button
+        android:id="@+id/buttonSubmit"
+        android:layout_width="186dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:onClick="sendPIN" 
+        
+        android:text="Submit" />
+
+</LinearLayout>

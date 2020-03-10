@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Denstply</string>
+    <string name="menu_Favorites">Favorites</string>
+    <string name="menu_News">News</string>
+    <string name="menu_Promo">Promotion</string>
+    <string name="menu_Settings">Settings</string>
+    
+        
+        
+        
+</resources>

@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  
+    xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:id="@+id/ScrollView01"  
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+    android:background="#FFFFFF"
+    android:scrollbars="vertical">  
+
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent"
+     android:background="#FFFFFF"
+     android:orientation="vertical"
+     android:paddingLeft="0dp" >
+
+     <LinearLayout
+         xmlns:android="http://schemas.android.com/apk/res/android"
+         android:layout_width="fill_parent"
+         android:layout_height="180dp"
+         android:orientation="horizontal"
+         android:paddingLeft="10dp"
+         android:paddingTop="10dp" >
+
+         <ImageView
+             android:id="@+id/imagePicture"
+             android:layout_width="129dp"
+             android:layout_height="138dp"
+             android:src="@drawable/row_image" />
+
+         <LinearLayout
+             xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="fill_parent"
+             android:layout_height="150dp"
+             android:orientation="vertical"
+             android:paddingLeft="10dp" >
+
+             <TextView
+                 android:id="@+id/textName"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:lines="1"
+                 android:paddingTop="0dp"
+            	 android:textColor="#000000"
+            	 android:textStyle="bold"
+                 android:text="Name Surname"
+                 android:textSize="22dip" />
+
+             <TextView
+                 android:id="@+id/textSpecialist"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:lines="1"
+                 android:paddingTop="0dp"
+                 android:text="Specialist: xxxxxx"
+                 android:textSize="18dip" />
+
+             <TextView
+                 android:id="@+id/textDivision"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:lines="1"
+                 android:paddingTop="0dp"
+                 android:text="Division: xxx"
+                 android:textSize="18dip" />
+         </LinearLayout>
+     </LinearLayout>
+
+     <LinearLayout
+         xmlns:android="http://schemas.android.com/apk/res/android"
+         android:layout_width="fill_parent"
+         android:layout_height="31dp"
+         android:orientation="horizontal" >
+     </LinearLayout>
+
+     <LinearLayout
+         xmlns:android="http://schemas.android.com/apk/res/android"
+         android:layout_width="fill_parent"
+         android:layout_height="60dip"
+         android:orientation="horizontal"
+         android:paddingLeft="20dp" >
+
+         <ImageView
+             android:id="@+id/imageCall"
+             android:layout_width="wrap_content"
+             android:layout_height="40dip"
+             android:src="@drawable/icon_phone" />
+
+         <TextView
+             android:id="@+id/textCall"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:paddingLeft="10dip"
+             android:text="Call"
+            	 android:textColor="#000000"
+            	 android:textStyle="bold"
+            	 
+             
+             android:textSize="22dip"
+             />
+     </LinearLayout>
+
+     <LinearLayout
+         xmlns:android="http://schemas.android.com/apk/res/android"
+         android:layout_width="fill_parent"
+         android:layout_height="60dip"
+         android:orientation="horizontal"
+         android:paddingLeft="20dp" >
+
+         <ImageView
+             android:id="@+id/imageText"
+             android:layout_width="wrap_content"
+             android:layout_height="40dip"
+             android:src="@drawable/icon_sms" />
+
+         <TextView
+             android:id="@+id/textText"
+             android:layout_width="wrap_content"
+             android:layout_height="40dp"
+             android:paddingLeft="10dp"
+             android:paddingTop="2dp"
+             android:text="Text"
+            	 android:textStyle="bold"
+             
+            	 android:textColor="#000000"
+             
+             android:textSize="22dip"
+              />
+     </LinearLayout>
+
+     <LinearLayout
+         xmlns:android="http://schemas.android.com/apk/res/android"
+         android:layout_width="fill_parent"
+         android:layout_height="60dip"
+         android:orientation="horizontal"
+         android:paddingLeft="20dp" >
+
+         <ImageView
+             android:id="@+id/imageEmail"
+             android:layout_width="wrap_content"
+             android:layout_height="40dip"
+             android:src="@drawable/icon_incomingmail" />
+
+         <TextView
+             android:id="@+id/textEmail"
+             android:layout_width="wrap_content"
+             android:layout_height="40dp"
+             android:paddingLeft="10dp"
+             android:paddingTop="2dp"
+             android:text="Email"
+            	 android:textStyle="bold"
+             
+            	 android:textColor="#000000"
+             
+             android:textSize="22dip"
+             
+             />
+     </LinearLayout>
+
+     <LinearLayout
+         xmlns:android="http://schemas.android.com/apk/res/android"
+         android:layout_width="fill_parent"
+         android:layout_height="60dip"
+         android:orientation="horizontal"
+         android:paddingLeft="20dp" >
+
+         <ImageView
+             android:id="@+id/imageEducation"
+             android:layout_width="wrap_content"
+             android:layout_height="40dip"
+             android:src="@drawable/icon_education" />
+
+         <TextView
+             android:id="@+id/textEducation"
+             android:layout_width="wrap_content"
+             android:layout_height="40dp"
+             android:paddingLeft="10dp"
+             android:paddingTop="2dp"
+             android:text="Continuing Education"
+            	 android:textStyle="bold"
+             
+            	 android:textColor="#000000"
+             
+             android:textSize="22dip"
+             
+             />
+     </LinearLayout>
+
+     <LinearLayout
+         xmlns:android="http://schemas.android.com/apk/res/android"
+         android:layout_width="fill_parent"
+         android:layout_height="60dip"
+         android:orientation="horizontal"
+         android:paddingLeft="20dp" >
+
+         <ImageView
+             android:id="@+id/imagePromotions"
+             android:layout_width="wrap_content"
+             android:layout_height="40dip"
+             android:src="@drawable/icon_promotions" />
+
+         <TextView
+             android:id="@+id/textPromotions"
+             android:layout_width="wrap_content"
+             android:layout_height="40dp"
+             android:paddingLeft="10dp"
+             android:paddingTop="2dp"
+             android:text="Promotions"
+            	 android:textStyle="bold"
+             
+            	 android:textColor="#000000"
+             
+             android:textSize="22dip"
+             
+             />
+     </LinearLayout>
+
+     <LinearLayout
+         xmlns:android="http://schemas.android.com/apk/res/android"
+         android:layout_width="fill_parent"
+         android:layout_height="60dip"
+         android:orientation="horizontal"
+         android:paddingLeft="20dp" >
+
+         <ImageView
+             android:id="@+id/imageAddressBook"
+             android:layout_width="wrap_content"
+             android:layout_height="40dip"
+             android:src="@drawable/address" />
+
+         <TextView
+             android:id="@+id/textAddressBook"
+             android:layout_width="wrap_content"
+             android:layout_height="40dp"
+             android:paddingLeft="10dp"
+             android:paddingTop="2dp"
+             android:text="Add to Address Book"
+            	 android:textStyle="bold"
+             
+             android:textColor="#000000"
+             android:textSize="22dip"
+         />
+     </LinearLayout>
+
+     <LinearLayout
+         xmlns:android="http://schemas.android.com/apk/res/android"
+         android:layout_width="fill_parent"
+         android:layout_height="60dip"
+         android:orientation="horizontal"
+         android:paddingLeft="20dp" >
+     </LinearLayout>
+         
+     
+    </LinearLayout>
+ </ScrollView>   
+ 

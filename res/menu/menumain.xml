@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+  <item android:id="@+id/menuFavorites"
+	android:icon="@drawable/ic_menu_star"
+	android:title="@string/menu_Favorites"
+  />
+  <item android:id="@+id/menuNews"
+	android:icon="@drawable/ic_menu_today"
+	android:title="@string/menu_News"
+  />
+
+  <item android:id="@+id/menuPromo"
+	android:icon="@drawable/ic_menu_gallery"
+	android:title="@string/menu_Promo"
+  />
+
+  <item android:id="@+id/menuSettings"
+	android:icon="@drawable/ic_menu_preferences"
+	android:title="@string/menu_Settings"
+  />
+</menu>

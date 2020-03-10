@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  
+    xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:id="@+id/ScrollView01"  
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+    android:background="#FFFFFF"
+    
+    android:scrollbars="vertical">  
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/top" />
+	
+	    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="match_parent"
+        android:layout_height="35dip"
+        android:gravity="center"
+        android:textSize="16dip"
+        android:text="This app must be registered to validate use."
+        android:textColor="#000000" />
+
+		
+    	<EditText
+	        android:id="@+id/editTextFirstName"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:hint="First Name"
+        />
+        
+    	<EditText
+	        android:id="@+id/editTextLastName"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:hint="Last Name"
+	        
+        />
+
+    	<TextView
+    	    android:id="@+id/TextView02"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="25dip"
+    	    android:gravity="left"
+    	    android:text="Company."
+    	    android:textColor="#000000"
+    	    android:textSize="16dip" />
+
+    	<Spinner
+    	    android:id="@+id/spinnerCompany"
+    	    android:layout_width="match_parent"
+	        android:hint="Company"
+    	    android:entries="@array/CompanyArray"
+    	    android:layout_height="wrap_content" />
+        
+    	<EditText
+	        android:id="@+id/editTextPhone"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	       	android:hint="Phone"
+	        
+        />
+        
+    <EditText
+        android:id="@+id/editTextZip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Primary Zip Code in your territory"
+        
+    />
+    
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+		android:inputType="textEmailAddress"
+		android:hint="Your personal corporate email"
+		        
+    />
+
+    <Button
+        android:id="@+id/buttonSubmit"
+        android:layout_width="186dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:onClick="sendEmailRegistration" 
+        android:text="Submit" 
+     />
+</LinearLayout>
+</ScrollView> 

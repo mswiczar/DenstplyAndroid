@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="#FFFFFF"
+    android:layout_width="fill_parent"
+    android:layout_height="200dip"
+    android:padding="0dip">
+
+    <ImageView
+        android:id="@+id/Imageimage"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginRight="10dip"
+        android:padding="5dip"
+        android:src="@drawable/row_image" />
+
+    <LinearLayout
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:background="#FFFFFF"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/labelName"
+            android:layout_width="fill_parent"
+            android:layout_height="35dip"
+            android:gravity="center_vertical"
+            android:lines="1"
+            android:text="xxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            android:textColor="#000000"
+            android:textSize="22dip"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/labelDivision"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:lines="1"
+            android:text="xxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            android:textColor="#BBBBBB"
+            android:textSize="18dip" />
+
+        <TextView
+            android:id="@+id/labelBrands"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:lines="2"
+            android:text="xxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            android:textColor="#BBBBBB"
+            android:textSize="18dip" />
+    </LinearLayout>
+
+</LinearLayout>

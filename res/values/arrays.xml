@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<resources>  
+    <string-array name="CompanyArray">  
+        <item>Arnold Dental Supply Company</item>  
+        <item>Atlanta Dental Supply Co.</item>  
+        <item>Benco Dental Supply Co.</item>  
+        <item>Burkhart Dental Supply</item>  
+        <item>Darby Dental Supply, LLC</item>  
+        <item>Dental Health Products, Inc.</item>
+        <item>Dentsply</item>  
+        <item>Direct Dental Supply</item>  
+        <item>Goetze Dental Co.</item>  
+        <item>Henry Schein, Inc.</item>  
+        <item>Holt Dental Supply Inc.</item>  
+        <item>Iowa Dental Supply Co.</item>  
+        <item>Midwest Dental Equipment and Supply</item>  
+        <item>Nashville Dental, Inc.</item>  
+        <item>Newark Dental Corporation</item>
+        <item>Orange County</item>
+        <item>Patterson Dental Co.</item>  
+        <item>Pearson Dental Supply Co.</item>  
+        <item>Smart Practice</item>  
+        <item>Tri-State Dental Supplies</item>  
+        <item>Ultimate Dental</item>  
+        <item>Other</item>  
+        </string-array>  
+        
+    <string-array name="EmailArray">  
+        <item>dentsply.com</item>  
+        <item>arnold-dental.com</item>  
+        <item>atlantadental.com</item>  
+        <item>benco.com</item>  
+        <item>burkhartdental.com</item>  
+        <item>darbydentalsupply.com</item>  
+        <item>dhpi.net</item>  
+        <item>directdentalsupply.com</item>  
+        <item>goetzedental.com</item>  
+        <item>henryschein.com</item>  
+        <item>holtdental.com</item>  
+        <item>iowadentalsupply.com</item>  
+        <item>mwdental.com</item>  
+        <item>nashvilledental.com</item>  
+        <item>pemconewarkdental.com</item>  
+        <item>patterson.com</item>  
+        <item>pearsondental.com</item>  
+        <item>smartpractice.com</item>  
+        <item>tristatedental.com</item>  
+        <item>endoco.com</item>  
+        <item>newarkdental-pemco.com</item>  
+    </string-array>  
+        
+        
+        
+</resources> 

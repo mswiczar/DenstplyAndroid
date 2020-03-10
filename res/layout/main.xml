@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  
+    xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:id="@+id/ScrollView01"  
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+    android:background="#FFFFFF"
+    android:scrollbars="vertical">  
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/top" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#4545A2" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Find your Dentsply"
+        android:gravity ="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#4545A2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Representative"
+        android:gravity ="center"
+        
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#4545A2" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#4545A2" />
+
+    <EditText
+        android:id="@+id/editTextZIP"
+        android:layout_width="148dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Enter office Zip"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#4545A2" />
+
+    <TextView
+        android:id="@+id/TextView03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#4545A2" />
+
+    <ImageView
+        android:id="@+id/imageViewSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:src="@drawable/search" />
+
+</LinearLayout>
+</ScrollView>
